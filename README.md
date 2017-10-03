@@ -11,3 +11,14 @@ Deep Learning Training
 
 - NLP Basics: https://docs.google.com/presentation/d/1Yi-ColCsDTPVnCmAPq7Ia-z2A4oF1VQKPtFRojnBqnY/edit?usp=sharing
 - Intro to Neural Networks: https://docs.google.com/presentation/d/1tj4ROGdDDv9j5V372AIXYrAKk6Sx8bZyFBtEgez--fw/edit?usp=sharing
+
+
+### Reads for future sessions:
+
+- Understanding LSTM Networks: http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+
+- RNN Tutorial(Denny Britz): http://www.wildml.com/2015/09/recurrent-neural-networks-tutorial-part-1-introduction-to-rnns/
+
+- Understanding CNNs for NLP: http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/
+
+- The unreasonable effectiveness of RNNs: http://karpathy.github.io/2015/05/21/rnn-effectiveness/
