@@ -7,7 +7,7 @@ import numpy as np
 np.random.seed(1234)
 
 # A dict of some additional special words
-X_WORDS = {"unknown": "<UNK>", "start": "<START>", "end": "<END>", "digit": "<DIGIT>"}
+X_WORDS = {"unknown": "<unk>", "start": "<start>", "end": "<end>", "digit": "<digit>"}
 
 # Loads the spacy model
 parser = spacy.load('en_core_web_md')
@@ -30,7 +30,7 @@ def add_boundary_tags(tokens):
     Adds start and end tags to list of tokens
     
     :param tokens: list: list of tokenized words
-    :returns str: [<START>, w1, w2...., wn, <END>]
+    :returns str: [<start>, w1, w2...., wn, <end>]
     """
     return [X_WORDS["start"]] + tokens + [X_WORDS["end"]]
 
